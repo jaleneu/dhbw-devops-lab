@@ -1,0 +1,8 @@
+name: Simple Checker 
+on: push
+jobs:
+  test-check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run Dummy Test
+        run: echo "Running Tests..."
